@@ -1,0 +1,7 @@
+.idea/
+.gradle/
+.gradletasknamecache
+build/
+config.yml
+*.json
+*.log

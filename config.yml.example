@@ -1,0 +1,11 @@
+nexus:
+  apiHandle: https://mynexus.instance.com/nexus/service/local
+  defaultRepository: releases
+
+artifactory:
+  host: https://myartifactory.instance.com
+  sourceHost: https://artifactory-to-copy-from-when-transferring-arty-to-arty
+  defaultRepository: libs-release-local
+  apiKey: yOurApIKeyGoesHere
+
+parallelism: 4
